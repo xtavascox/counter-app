@@ -1,16 +1,16 @@
 import React from "react";
 import PropTypes from 'prop-types'
 
-const PrimeraApp = ({saludo,subtitulo}) => {
+export const PrimeraApp = ({saludo,subtitulo}) => {
  
   return (
     <>
-    <React.StrictMode>
-    <h1>{saludo}</h1>
+    
+    <h1>{saludo}!!!!</h1>
       {/* <pre>{JSON.stringify(datos,null,3)}</pre> */}
-      <p> {subtitulo} </p>
+      <p>{subtitulo}</p>
 
-    </React.StrictMode>
+
       
     </>
   );

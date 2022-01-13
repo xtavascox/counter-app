@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React, { useState } from "react";
 
-const CounterApp = ({ values }) => {
+export const CounterApp = ({ values }) => {
   const [counter, setCounter] = useState(values);
 
   const handleAdd = () => {
